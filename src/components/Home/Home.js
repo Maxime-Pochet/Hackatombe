@@ -7,12 +7,12 @@ export default class Home extends Component {
     return (
       <div>
         <p>Page du site entier du monde</p>
-
+        <p>fuck</p>
         <div>
           <NavLink to="/pacman">PacMan</NavLink>
         </div>
         <div>
-          <NavLink to="/menu">Story Game</NavLink>
+          <NavLink to="/base">Story Game</NavLink>
         </div>
       </div>
     );
