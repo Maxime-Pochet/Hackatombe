@@ -5,7 +5,7 @@ export default class PacMan extends Component {
   render() {
     return (
       <div>
-        <div>
+        <div className="storyContainer">
           <p>Voici la page de Paqueu Maneu</p>
         </div>
         <div>

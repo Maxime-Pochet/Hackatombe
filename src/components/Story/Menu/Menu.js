@@ -5,12 +5,12 @@ export default class Menu extends Component {
   render() {
     return (
       <div className="storyContainer">
-        <p>Bienvenue à la chasse aux bonbons</p>
+        <h2>Bienvenue à la chasse aux bonbons</h2>
         <div>
-          <NavLink to="/">Retour à la page d'accueil</NavLink>
+          <NavLink to="/base">C'est parti!!!!</NavLink>
         </div>
         <div>
-          <NavLink to="/start">C'est parti!!!!</NavLink>
+          <NavLink to="/">Retour à la page d'accueil</NavLink>
         </div>
       </div>
     );
