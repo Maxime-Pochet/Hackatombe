@@ -3,6 +3,7 @@
     "id": "0",
     "storyTitle": "On se déguise",
     "story": "Il est l'heure de me préparer pour cette soirée de chasse aux bonbons, quel déguisement vais-je choisir?",
+    "img": "https://res.cloudinary.com/dxze602g1/image/upload/v1540950614/room.png",
     "btn1": {
       "id": "1",
       "text": "Zombie"
@@ -16,6 +17,7 @@
     "id": "1",
     "storyTitle": "Départ pour l'aventure",
     "story": "Dès la sortie de ma maison, je me retrouve avec un choix crucial, choisir ma direction:",
+    "img": "https://res.cloudinary.com/dxze602g1/image/upload/v1540950611/choice.png",
     "btn1": {
       "id": "2",
       "text": "Chemin éclairé"
@@ -29,6 +31,7 @@
     "id": "2",
     "storyTitle": "Arrivée devant une belle maison",
     "story": "Après avoir sonné, une famille m'ouvre la porte et me propose de choisir entre deux types de bonbons:",
+    "img": "https://res.cloudinary.com/dxze602g1/image/upload/v1540950608/porte_vieille.png",
     "btn1": {
       "id": "4",
       "text": "M&M's"
@@ -42,6 +45,7 @@
     "id": "3",
     "storyTitle": "Arrivée devant une maison hantée ",
     "story": "Je toque à la porte, aucune réponse",
+    "img": "https://res.cloudinary.com/dxze602g1/image/upload/v1540950608/porte_hant%C3%A9e.png",
     "btn1": {
       "id": "5",
       "text": "Je toque à nouveau !"
@@ -55,6 +59,7 @@
     "id": "4",
     "storyTitle": "Un choix difficile",
     "story": "Il est 22h20 et demain j'ai un hackathon qui commence, j'hésite à continuer ma chasse ou rentrer un peu me reposer...",
+    "img": "https://res.cloudinary.com/dxze602g1/image/upload/v1540950608/porte_hant%C3%A9e.png",
     "btn1": {
       "id": "7",
       "text": "Je rentre tranquillou"
@@ -66,8 +71,9 @@
   },
   {
     "id": "5",
-    "storyTitle": "J' ai retoqué ! ",
-    "story": "J'entends un bruit de s'approcher, une grand mère m'ouvre la porte ATTENTION CECI N'EST PAS TERMINE LOL",
+    "storyTitle": "J'ai retoqué ! ",
+    "story": "J'entends que quelqu'un s'approche, une grand mère m'ouvre la porte ATTENTION CECI N'EST PAS TERMINE LOL",
+    "img": "https://res.cloudinary.com/dxze602g1/image/upload/v1540950608/porte_hant%C3%A9e.png",
     "btn1": {
       "id": "9",
       "text": "Voilà un chou de bruxelle mon petit ! Et je repars à la chasse aux bonbons !"
@@ -81,32 +87,35 @@
     "id": "6",
     "storyTitle": "L'aventure continue ",
     "story": "XXXXX",
+    "img": "https://res.cloudinary.com/dxze602g1/image/upload/v1540950608/porte_hant%C3%A9e.png",
     "btn1": {
-      "id": "X",
-      "text": "X"
+      "id": "9",
+      "text": "pour l'instant je vais à 9"
     },
     "btn2": {
-      "id": "X",
-      "text": "X"
+      "id": "10",
+      "text": "pour l'instant je vais à 10"
     }
   },
   {
     "id": "7",
     "storyTitle": "Game Over",
     "story": "Une belle mort.",
+    "img": "https://res.cloudinary.com/dxze602g1/image/upload/v1540950603/zombie-alone.png",
     "btn1": {
-      "id": "X",
-      "text": "X"
+      "id": "8",
+      "text": "pour l'instant je vais à 8"
     },
     "btn2": {
-      "id": "X",
-      "text": "X"
+      "id": "0",
+      "text": "pour l'instant je vais à 0"
     }
   },
   {
     "id": "8",
     "storyTitle": "Une nouvelle maison",
     "story": "Après une petite marche dans le quartier, j'arrive à une nouvelle maison. Je frappe à la porte, mais perosnne ne me répond.",
+    "img": "https://res.cloudinary.com/dxze602g1/image/upload/v1540950605/alley.png",
     "btn1": {
       "id": "11",
       "text": "Je décide tout de même d'entrer dans la maison"
@@ -120,13 +129,56 @@
     "id": "9",
     "storyTitle": "Une autre maison",
     "story": "Si je suis un zombie, je repère un panier de bonbons, je me faufile en faisant le zombie ! Si je suis une citrouille je me fais bouffer",
+    "img": "https://res.cloudinary.com/dxze602g1/image/upload/v1540950605/alley.png",
     "btn1": {
       "id": "12",
       "text": "Je me dirige vers une allée abandonnée "
     },
     "btn2": {
-      "id": "13",
+      "id": "0",
       "text": "Bah là t'es mort   A DEFINIR  !"
+    }
+  },
+  {
+    "id": "10",
+    "storyTitle": "X",
+    "story": "X.",
+    "img": "https://res.cloudinary.com/dxze602g1/image/upload/v1540950603/zombie-alone.png",
+    "btn1": {
+      "id": "0",
+      "text": "pour l'instant je vais à 0"
+    },
+    "btn2": {
+      "id": "6",
+      "text": "pour l'instant je vais à 6"
+    }
+  },
+  {
+    "id": "11",
+    "storyTitle": "X",
+    "story": "X.",
+    "img": "https://res.cloudinary.com/dxze602g1/image/upload/v1540950603/zombie-alone.png",
+    "btn1": {
+      "id": "12",
+      "text": "pour l'instant je vais à 12"
+    },
+    "btn2": {
+      "id": "10",
+      "text": "pour l'instant je vais à 10"
+    }
+  },
+  {
+    "id": "12",
+    "storyTitle": "L'allée de meurtrière",
+    "story": "X.",
+    "img": "https://res.cloudinary.com/dxze602g1/image/upload/v1540950605/alley.png",
+    "btn1": {
+      "id": "5",
+      "text": "pour l'instant je vais à 5"
+    },
+    "btn2": {
+      "id": "6",
+      "text": "pour l'instant je vais à 6"
     }
   }
 ]

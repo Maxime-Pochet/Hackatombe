@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import jsonData from "../../../data.json";
+import "./Chapitre.scss";
 console.log(jsonData);
 // const chapitreDetails = {
 //   storyTitle: "",
@@ -8,6 +9,9 @@ console.log(jsonData);
 //   choiceB: "",
 //   choiceC: ""
 // };
+
+const url =
+  "https://res.cloudinary.com/dxze602g1/image/upload/v1540950614/room.png";
 
 export default class Chapitre extends Component {
   state = {
@@ -23,7 +27,16 @@ export default class Chapitre extends Component {
 
   render() {
     return (
-      <div>
+      <div
+        className="testContainer"
+        style={{
+          backgroundImage: `url(${jsonData[this.state.currentPosition].img})`,
+          height: "90vh"
+        }}
+        // style={{
+        //   backgroundColor: "red"
+        // }}
+      >
         <h2>{jsonData[this.state.currentPosition].storyTitle}</h2>
         <p>{jsonData[this.state.currentPosition].story}</p>
         <button
