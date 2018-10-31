@@ -41,7 +41,7 @@
   {
     "id": "2",
     "storyTitle": "Arrivée devant une belle maison",
-    "story": "Après avoir sonné, une famille m'ouvre la porte et me propose de choisir entre deux types de bonbons:",
+    "story": "Après avoir sonné à la porte, une famille m'ouvre la porte. Je crie : Des Bonbons ou la vie !!! Ils me proposent donc de choisir entre deux types de bonbons:",
     "img": "https://res.cloudinary.com/dxze602g1/image/upload/v1540950608/porte_vieille.png",
     "btn1": {
       "id": "4",
@@ -58,7 +58,7 @@
   },
   {
     "id": "3",
-    "storyTitle": "Arrivée devant une maison avec une grand-mère ",
+    "storyTitle": "Arrivée devant une maison éteinte",
     "story": "Je toque à la porte, aucune réponse",
     "img": "https://res.cloudinary.com/dxze602g1/image/upload/v1540950607/maison-vieille.png",
     "btn1": {
@@ -76,64 +76,70 @@
   },
   {
     "id": "4",
-    "storyTitle": "Un choix difficile",
-    "story": "Il est 22h20 et demain j'ai un hackathon qui commence, j'hésite à continuer ma chasse ou rentrer un peu me reposer...",
+    "storyTitle": "La chasse reprend !",
+    "story": "Il est 22h20 et demain j'ai un hackathon qui commence, j'hésite à continuer la chasse aux bonbons, ou rentrer un peu me reposer...",
     "img": "https://res.cloudinary.com/dxze602g1/image/upload/v1540950611/choice.png",
     "btn1": {
-      "id": "7",
+      "id": "10",
       "text": "Je rentre tranquillou",
-      "classText": ""
+      "classText": "",
+        "score": "5"
     },
     "btn2": {
-      "id": "8",
+      "id": "6",
       "text": "Je continue mon aventure",
-      "classText": ""
+      "classText": "",
+        "score": "15"
     }
   },
   {
     "id": "5",
     "storyTitle": "J'ai retoqué ! ",
-    "story": "J'entends que quelqu'un s'approche, une grand mère m'ouvre la porte ATTENTION CECI N'EST PAS TERMINE LOL",
+    "story": "J'entends des bruits de pas qui s'approchent. Une grand mère m'ouvre la porte; Elle me félicite pour mon costume, et me donne un choux de bruxelle..",
     "img": "https://res.cloudinary.com/dxze602g1/image/upload/v1540950608/porte_hant%C3%A9e.png",
     "btn1": {
-      "id": "9",
-      "text": "Voilà un chou de bruxelle mon petit ! Et je repars à la chasse aux bonbons !",
-      "classText": ""
+      "id": "10",
+      "text": "Merci Madame.. Du coup je vais rentrer chez moi et faire un gratin de choux ..",
+      "classText": "",
+        "score": "-15"
     },
     "btn2": {
-      "id": "10",
-      "text": "Bah là t'es mort   A DEFINIR  !",
-      "classText": ""
+      "id": "6",
+      "text": "J'aime pas les choux, je continue pour trouver d'autres bonbons !",
+      "classText": "",
+      "score": "-15"
     }
   },
   {
     "id": "6",
-    "storyTitle": "L'aventure continue, je suis devant une maison hantée !",
-    "story": "XXXXX",
+    "storyTitle": "L'aventure continue !",
+    "story": "Je suis devant une maison hantée !La maison est immense, tout le monde dans le quartier m'a dit qu'elle était hantée. Si je rentre je vais peut-être trouver des tas de trucs cool ! En même temps j'entends des grognements..",
     "img": "https://res.cloudinary.com/dxze602g1/image/upload/v1540950604/haunted-house.png",
     "btn1": {
       "id": "9",
-      "text": "Je rentre dedans, même pas peur !"
+      "text": "Je rentre dans la maison, même pas peur !",
+      "score": "15"
     },
     "btn2": {
       "id": "10",
       "text": "J'en ai marre de tout ce stress, tcho les nazes je rentre",
-      "classText": ""
+      "classText": "",
+      "score": "5"
     }
   },
   {
     "id": "7",
     "storyTitle": "Game Over",
-    "story": "Une belle mort.",
+    "story": "Une belle mort. Ou pas. C'était pour des bonbons quoi.",
     "img": "https://res.cloudinary.com/dxze602g1/image/upload/v1540950603/zombie-alone.png",
     "btn1": {
-      "id": "8",
-      "text": "pour l'instant je vais à 8",
+      "id": "0",
+      "text": "Vas-y je recommence !",
       "classText": ""
     },
     "btn2": {
       "id": "0",
-      "text": "pour l'instant je vais à 0",
+      "text": "Je retourne au menu tfaçon j'ai fini c'est chiant ce jeu",
       "classText": ""
     }
   },
@@ -143,70 +149,95 @@
     "story": "Après une petite marche dans le quartier, j'arrive à une nouvelle maison. Je frappe à la porte, mais personne ne me répond.",
     "img": "https://res.cloudinary.com/dxze602g1/image/upload/v1540950605/alley.png",
     "btn1": {
-      "id": "11",
+      "id": "6",
       "text": "Je décide tout de même d'entrer dans la maison",
-      "classText": ""
+      "classText": "",
+      "score": "15"
     },
     "btn2": {
-      "id": "7",
+      "id": "10",
       "text": "Je rentre en courant",
-      "classText": ""
+      "classText": "",
+      "score": "5"
     }
   },
   {
     "id": "9",
-    "storyTitle": "Une autre maison",
-    "story": "Si je suis un zombie, je repère un panier de bonbons, je me faufile en faisant le zombie ! Si je suis une citrouille je me fais bouffer",
-    "img": "https://res.cloudinary.com/dxze602g1/image/upload/v1540950605/alley.png",
+    "storyTitle": "Dans la maison hantée",
+    "story": "Je rentre doucement dans la maison et me dirige vers la cuisine et une horde de zombies est regroupée dans le salon. Je me faufile en grognant comme les zombies, pour prendre un énorme paquet de haribo et je repars de cet endroit ! Heureusement que j'étais deguisé en zombie...",
+    "img": "https://res.cloudinary.com/dxze602g1/image/upload/v1540950608/porte_hant%C3%A9e.png",
     "btn1": {
-      "id": "12",
-      "text": "Je me dirige vers une allée abandonnée "
+      "id": "11",
+      "text": "Je pars en courant vers une allée abandonnée ",
+      "score": "10"
+
     },
     "btn2": {
-      "id": "0",
-      "text": "Bah là t'es mort   A DEFINIR  !"
+      "id": "10",
+      "text": "Je rentre chez moi J'EN AI VRAIMENT ASSEZ !",
+      "score": "5"
     }
   },
   {
     "id": "10",
-    "storyTitle": "Je suis rentré chez moi sans être mort",
-    "story": "Je suis rentrée chez moi, normalement de de boutons mais affichage du score avec une phrase",
-    "img": "https://res.cloudinary.com/dxze602g1/image/upload/v1540950603/zombie-alone.png",
+    "storyTitle": "Game over et t'es même pas mort !",
+    "story": "Je suis enfin rentré.e chez moi",
+    "img": "https://res.cloudinary.com/dxze602g1/image/upload/v1540950608/score.png",
     "btn1": {
       "id": "0",
-      "text": "pour l'instant je vais à 0"
+      "text": " Vas'y je recommence ce jeu !!"
     },
     "btn2": {
-      "id": "6",
-      "text": "pour l'instant je vais à 6"
+      "id": "0",
+      "text": "C'est le moment de cliquer sur retour !"
     }
   },
   {
     "id": "11",
-    "storyTitle": "X",
-    "story": "X.",
-    "img": "https://res.cloudinary.com/dxze602g1/image/upload/v1540950603/zombie-alone.png",
+    "storyTitle": "L'allée meurtrière",
+    "story": "Te voilà dans une allée très sombre. Tu fais le tour des buissons et par chance, tu trouves un paquet de ricolas ! Ca c'est vraiment cool !",
+    "img": "https://res.cloudinary.com/dxze602g1/image/upload/v1540950605/alley.png",
     "btn1": {
-      "id": "12",
-      "text": "pour l'instant je vais à 12"
+      "id": "13",
+      "text": "Cette fois je fais mes lacets et je rentre chez moi",
+      "score": "20"
     },
     "btn2": {
-      "id": "10",
-      "text": "pour l'instant je vais à 10"
+      "id": "12",
+      "text": "JE RENTRE CHEZ MOI EN COURANT PARCE QUE J'EN AI MARRE D'ETRE DEHORS !!",
+      "score": "20"
     }
   },
   {
     "id": "12",
-    "storyTitle": "L'allée de meurtrière",
-    "story": "X.",
+    "storyTitle": "Mince !",
+    "story": "Alors que tu rentres chez toi en courant,tu n'as pas lacé tes chaussures ! (pourtant ta mère te l'avait répété ... ) Tu tombes, tu te fais mal au genou, et une horde de zombies arrive ...",
     "img": "https://res.cloudinary.com/dxze602g1/image/upload/v1540950605/alley.png",
     "btn1": {
-      "id": "5",
-      "text": "pour l'instant je vais à 5"
+      "id": "7",
+      "text": "NOOOOOON !!",
+      "score": "0"
     },
     "btn2": {
-      "id": "6",
-      "text": "pour l'instant je vais à 6"
+      "id": "7",
+      "text": "Je garde le silence, peut-être qu'ils ne me verront pas ..",
+      "score": "0"
+    }
+  },
+  {
+    "id": "13",
+    "storyTitle": "Mais qui sont-ils ?",
+    "story": "Alors que tu rentres chez toi, tu croises un groupe de personnes. Ils font partie du conseil municpal et forment les voisins vigilants. Ils me proposent des bonbons !",
+    "img": "https://res.cloudinary.com/dxze602g1/image/upload/v1540950604/neighbor.png",
+    "btn1": {
+      "id": "10",
+      "text": "Oui merci beaucoup j'admire vraiment les voisins vigilants !",
+      "score": "20"
+    },
+    "btn2": {
+      "id": "7",
+      "text": "Non merci je suis pas un collabo je vais rentrer.",
+      "score": "10"
     }
   }
 ]

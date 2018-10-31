@@ -45,7 +45,7 @@ export default class Chapitre extends Component {
         <div
           className="chapter-container"
           style={{backgroundImage: `url(${jsonData[this.state.currentPosition].img})`}}
-  
+
         >
         <NavLink className="back-home" to="/prologue"><i class="fas fa-door-open"></i></NavLink>
           <div className="pseudo-card">
@@ -64,14 +64,14 @@ export default class Chapitre extends Component {
             {jsonData[this.state.currentPosition].btn1.avatar && <img src={jsonData[this.state.currentPosition].btn1.avatar}/>}
               <span>{jsonData[this.state.currentPosition].btn1.text}</span>
             </button>
-  
+
             <button
               name={jsonData[this.state.currentPosition].btn2.id}
               className={`choiceB ${jsonData[this.state.currentPosition].btn2.classText}`}
               onClick={this.handleClickButton2}
             >
             {!(jsonData[this.state.currentPosition].btn2.avatar) && <i class="fas fa-ghost icon"></i>}
-            
+
             {jsonData[this.state.currentPosition].btn2.avatar && <img src={jsonData[this.state.currentPosition].btn2.avatar}/>}
               <span>{jsonData[this.state.currentPosition].btn2.text}</span>
             </button>

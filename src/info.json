@@ -1,0 +1,15 @@
+[
+    {
+        "name": "chap1",
+        "titre": "intro",
+        "scenario":"gros lol t'as vu !",
+        "id": 0
+    }
+    {
+        "name": "chap2",
+        "titre": "titre2",
+        "scenario":"gros lol t'as vu c'est la deuxieme !",
+        "id": 1
+    }
+
+]
