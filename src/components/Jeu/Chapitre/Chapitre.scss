@@ -32,11 +32,12 @@
     color: #fff;
     font-family: 'Fontdiner Swanky', cursive;
     letter-spacing: 2px;
+    text-shadow: 3px 3px 2px #222;
   }
 
   .chapter-text {
     grid-row-start: 2;
-    margin: -50px auto 0;
+    margin: 0 auto ;
     width: 60vw;
     padding: 14px 0;
     border-radius: 7px;
@@ -53,7 +54,7 @@
     grid-column-gap: 15px;
     padding: 10px;
     justify-items: center;
-    margin: -180px 0 0;
+    margin: -50px 0 0;
     align-items: flex-end;
     
 
@@ -61,7 +62,7 @@
       grid-column-start: 1;
       font-family: 'Krub', sans-serif;
       border: 4px solid #d55d1f;
-      background-color: #F3F3F3E6;
+      background-color: #F3F3F3;
       border-radius: 7px;
       cursor: pointer;
       font-size: 1.3em;
@@ -71,7 +72,7 @@
       }
 
       img {
-        width: 170px;
+        width: 150px;
       }
       span {
         display: inherit;
@@ -81,7 +82,7 @@
 
     .choiceA.avatar-btn {
       grid-column-start: 1;
-      width: 190px; 
+      width: 170px; 
       justify-self: flex-end;
       margin-right: 70px;
 
@@ -96,7 +97,7 @@
       grid-column-start: 2;
       font-family: 'Krub', sans-serif;
       border: 4px solid #97b2a1;
-      background-color: #F3F3F3E6;
+      background-color: #F3F3F3;
       border-radius: 7px;
       cursor: pointer;
       font-size: 1.3em;
@@ -106,7 +107,7 @@
       }
 
       img {
-        width: 170px;
+        width: 150px;
       }
       span {
         display: inherit;
@@ -116,7 +117,7 @@
 
     .choiceB.avatar-btn {
       grid-column-start: 2;
-      width: 190px;
+      width: 170px;
       justify-self: flex-start;
       align-self: center;
       margin-left: 70px;
