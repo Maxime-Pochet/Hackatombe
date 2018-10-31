@@ -5,6 +5,7 @@ import Start from "./Jeu/Start/Start";
 import Base from "./Jeu/Base/Base";
 import Chapitre from "./Jeu/Chapitre/Chapitre";
 import TheEnd from './Jeu/End/TheEnd'
+import GameOver from './Jeu/GameOver/GameOver'
 import "./Jeu/Story.scss";
 
 export default class Router extends Component {
@@ -17,6 +18,7 @@ export default class Router extends Component {
           <Route path="/prologue" component={Base} />
           <Route path="/chapitre" component={Chapitre} />
           <Route path="/the-end" component={TheEnd} />
+          <Route path="/gameover" component={GameOver} />
         </Switch>
       </BrowserRouter>
     );
