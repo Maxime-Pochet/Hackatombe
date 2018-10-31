@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import jsonData from "../../../data.json";
+import { NavLink } from "react-router-dom";
 import "./Chapitre.scss";
 // console.log(jsonData);
 // const chapitreDetails = {
@@ -44,6 +45,7 @@ export default class Chapitre extends Component {
           style={{backgroundImage: `url(${jsonData[this.state.currentPosition].img})`}}
   
         >
+        <NavLink className="back-home" to="/prologue"><i class="fas fa-door-open"></i></NavLink>
           <h2 className="chapter-title">{jsonData[this.state.currentPosition].storyTitle}</h2>
           <p className="chapter-text">{jsonData[this.state.currentPosition].story}</p>
           <p className="btn-container">
