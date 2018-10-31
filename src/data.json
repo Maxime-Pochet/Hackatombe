@@ -3,6 +3,7 @@
     "id": "0",
     "storyTitle": "On se déguise",
     "story": "Il est l'heure de me préparer pour cette soirée de chasse aux bonbons, quel déguisement vais-je choisir?",
+    "avatar": "https://res.cloudinary.com/dxze602g1/image/upload/v1540950608/head.png",
     "img": "https://res.cloudinary.com/dxze602g1/image/upload/v1540950614/room.png",
     "btn1": {
       "id": "1",
