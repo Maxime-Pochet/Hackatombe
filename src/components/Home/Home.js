@@ -16,7 +16,7 @@ export default class Home extends Component {
           <a href="https://thorrion.github.io/Pacman-Skull/" target="_blank" style={{backgroundImage: `url(${Pacman})`}}> </a>
         </div>
         <div className="link_home">
-          <NavLink to="/menu" style={{backgroundImage: `url(${Jeu})`}}></NavLink>
+          <NavLink to="/prologue" style={{backgroundImage: `url(${Jeu})`}}></NavLink>
         </div>
       </div>
     );
