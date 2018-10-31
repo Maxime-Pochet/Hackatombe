@@ -26,7 +26,8 @@ export default class Start extends Component {
         <NavLink className="back-home" to="/"><i class="fas fa-home"></i></NavLink>
         <h2 className="storySubtitle">Un bonbon ou la vie</h2>
         <p className="chapterStory">
-        Thank you, Strax. And if I'm ever in need of advice from a psychotic potato dwarf, you'll certainly be the first to know. Usually called 'The Doctor.' Or 'The Caretaker.' Or 'Get off this planet.' Though, strictly speaking, that probably isn't a name. Yes, well, it's a brilliant noise. I love that noise. Frightened people. Give me a Dalek any day. Overconfidence, this, and a small screwdriver. I’m absolutely sorted. Father Christmas. Santa Claus. Or, as I’ve always known him, Jeff. There's something that doesn't make sense. Let's go and poke it with a stick.
+        Mercredi 31 octobre, 22h00.<br />
+        Vous écoutez la radio en vous préparant votre sac où vous pourrez mettre les bonbons que vous trouverez. Un flash spécial mentionne "une apocalypse de zombies" en ce jour d'halloween. Cette blague vous fait sourire. C'est le moment d'y aller !
         </p>
         <input className="speudo" autoFocus name="pseudo" placeholder="Pseudo" onChange={this.handleChange}></input>
           <p className="link-start-game">
