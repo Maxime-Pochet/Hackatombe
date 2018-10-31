@@ -107,7 +107,7 @@
     "img": "https://res.cloudinary.com/dxze602g1/image/upload/v1540950604/haunted-house.png",
     "btn1": {
       "id": "9",
-      "text": "Je rentre dedans, même pas peur !"
+      "text": "Je rentre dans la maison, même pas peur !"
     },
     "btn2": {
       "id": "10",
@@ -142,7 +142,7 @@
       "classText": ""
     },
     "btn2": {
-      "id": "7",
+      "id": "10",
       "text": "Je rentre en courant",
       "classText": ""
     }
@@ -150,10 +150,10 @@
   {
     "id": "9",
     "storyTitle": "Dans la maison hantée",
-    "story": "La maison n'est pas allumée, je me dirige vers la cuisine et une horde de zombie est regroupée dans le salon. Je me faufile doucement en grognant comme les zombies, pour prendre un énorme paquet de haribo et je repars de cet endroit ! Heureusement que j'étais deguisé en zombie...",
-    "img": "https://res.cloudinary.com/dxze602g1/image/upload/v1540950605/alley.png",
+    "story": "Je rentre doucement dans la maison et me dirige vers la cuisine et une horde de zombies est regroupée dans le salon. Je me faufile en grognant comme les zombies, pour prendre un énorme paquet de haribo et je repars de cet endroit ! Heureusement que j'étais deguisé en zombie...",
+    "img": "https://res.cloudinary.com/dxze602g1/image/upload/v1540950608/porte_hant%C3%A9e.png",
     "btn1": {
-      "id": "12",
+      "id": "11",
       "text": "Je pars en courant vers une allée abandonnée "
     },
     "btn2": {
@@ -164,7 +164,7 @@
   {
     "id": "10",
     "storyTitle": "Game over et t'es même pas mort !",
-    "story": "Je suis rentré.e chez moi, normalement de de boutons mais affichage du score avec une phrase",
+    "story": "Je suis enfin rentré.e chez moi",
     "img": "https://res.cloudinary.com/dxze602g1/image/upload/v1540950608/score.png",
     "btn1": {
       "id": "0",
@@ -177,30 +177,44 @@
   },
   {
     "id": "11",
-    "storyTitle": "X",
-    "story": "X.",
-    "img": "https://res.cloudinary.com/dxze602g1/image/upload/v1540950603/zombie-alone.png",
+    "storyTitle": "L'allée meurtrière",
+    "story": "Te voilà dans une allée très sombre. Tu fais le tour des buissons et par chance, tu trouves un paquet de ricolas ! Ca c'est vraiment cool !",
+    "img": "https://res.cloudinary.com/dxze602g1/image/upload/v1540950605/alley.png",
     "btn1": {
-      "id": "12",
-      "text": "pour l'instant je vais à 12"
+      "id": "13",
+      "text": "Cette fois je fais mes lacets et je rentre chez moi"
     },
     "btn2": {
-      "id": "10",
-      "text": "pour l'instant je vais à 10"
+      "id": "12",
+      "text": "JE RENTRE CHEZ MOI EN COURANT PARCE QUE J'EN AI MARRE D'ETRE DEHORS !!"
     }
   },
   {
     "id": "12",
-    "storyTitle": "L'allée de meurtrière",
-    "story": "X.",
+    "storyTitle": "Mince !",
+    "story": "Alors que tu rentres chez toi en courant,tu n'as pas lacé tes chaussures ! (pourtant ta mère te l'avait répété ... ) Tu tombes, tu te fais mal au genou, et une horde de zombies arrive ...",
     "img": "https://res.cloudinary.com/dxze602g1/image/upload/v1540950605/alley.png",
     "btn1": {
-      "id": "5",
-      "text": "pour l'instant je vais à 5"
+      "id": "7",
+      "text": "NOOOOOON !!"
     },
     "btn2": {
-      "id": "6",
-      "text": "pour l'instant je vais à 6"
+      "id": "7",
+      "text": "Je garde le silence, peut-être qu'ils ne me verront pas .."
+    }
+  },
+  {
+    "id": "13",
+    "storyTitle": "Mais qui sont-ils ?",
+    "story": "Alors que tu rentres chez toi, tu croises un groupe de personnes. Ils font partie du conseil municpal et forment les voisins vigilants. Ils me proposent des bonbons !",
+    "img": "https://res.cloudinary.com/dxze602g1/image/upload/v1540950604/neighbor.png",
+    "btn1": {
+      "id": "10",
+      "text": "Oui merci beaucoup j'admire vraiment les voisins vigilants !"
+    },
+    "btn2": {
+      "id": "10",
+      "text": "Non merci je suis pas un collabo je vais rentrer."
     }
   }
 ]

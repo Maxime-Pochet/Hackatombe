@@ -1,0 +1,17 @@
+.end-container {
+    width: 100vw;
+    height: 100vh;
+    background-position: bottom;
+    background-size: cover;
+
+    h2 {
+        margin: 0;
+        text-align: center;
+        grid-row-start: 1;
+        font-size: 3em;
+        text-transform: uppercase;
+        color: #222;
+        font-family: 'Fontdiner Swanky', cursive;
+        letter-spacing: 2px;
+    }
+}

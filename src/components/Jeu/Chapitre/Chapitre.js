@@ -1,7 +1,8 @@
 import React, { Component } from "react";
 import jsonData from "../../../data.json";
+import { NavLink } from "react-router-dom";
 import "./Chapitre.scss";
-console.log(jsonData);
+// console.log(jsonData);
 // const chapitreDetails = {
 //   storyTitle: "",
 //   story: "",
@@ -19,16 +20,24 @@ export default class Chapitre extends Component {
     totalScore : 0
   };
 
-  handleClick = e => {
+  handleClickButton1 = e => {
     console.log(e.target.name);
     this.setState({
       currentPosition: e.target.name,
-      // totalScore : totalScore +
+      totalScore : this.state.totalScore + parseInt(jsonData[this.state.currentPosition].btn1.score)
+    });
+  };
+
+  handleClickButton2 = e => {
+    console.log(e.target.name);
+    this.setState({
+      currentPosition: e.target.name,
+      totalScore : this.state.totalScore + parseInt(jsonData[this.state.currentPosition].btn2.score)
     });
   };
 
   render() {
-    console.log(jsonData[this.state.currentPosition].img);
+
     // if (this.state.currentPosition !== 5) {
       return (
         <div
@@ -36,13 +45,14 @@ export default class Chapitre extends Component {
           style={{backgroundImage: `url(${jsonData[this.state.currentPosition].img})`}}
 
         >
+        <NavLink className="back-home" to="/prologue"><i class="fas fa-door-open"></i></NavLink>
           <h2 className="chapter-title">{jsonData[this.state.currentPosition].storyTitle}</h2>
           <p className="chapter-text">{jsonData[this.state.currentPosition].story}</p>
           <p className="btn-container">
             <button
               name={jsonData[this.state.currentPosition].btn1.id}
               className={`choiceA ${jsonData[this.state.currentPosition].btn1.classText}`}
-              onClick={this.handleClick}
+              onClick={this.handleClickButton1}
             >
             {!(jsonData[this.state.currentPosition].btn1.avatar) && <i class="fas fa-ghost icon"></i>}
             {jsonData[this.state.currentPosition].btn1.avatar && <img src={jsonData[this.state.currentPosition].btn1.avatar}/>}
@@ -52,7 +62,7 @@ export default class Chapitre extends Component {
             <button
               name={jsonData[this.state.currentPosition].btn2.id}
               className={`choiceB ${jsonData[this.state.currentPosition].btn2.classText}`}
-              onClick={this.handleClick}
+              onClick={this.handleClickButton2}
             >
             {!(jsonData[this.state.currentPosition].btn2.avatar) && <i class="fas fa-ghost icon"></i>}
 
