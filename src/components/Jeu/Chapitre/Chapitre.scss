@@ -1,4 +1,102 @@
-.testContainer {
-  background-repeat: no-repeat;
-  background-size: 90vw 90vh;
+.chapter-container {
+  background-position: bottom;
+  background-size: cover;
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  text-align: center;
+  display: grid;
+  grid-template-rows: 1fr 2fr 1fr;
+  align-items: center;
+
+  .chapter-title {
+    align-self: end;
+    margin: 0 0 0 45px;
+    grid-row-start: 1;
+    font-size: 3em;
+    text-transform: uppercase;
+    color: #fff;
+    font-family: 'Fontdiner Swanky', cursive;
+  }
+
+  .chapter-text {
+    grid-row-start: 2;
+    margin: 0 auto;
+    width: 60vw;
+    padding: 14px 0;
+    border-radius: 7px;
+    opacity: 0.8;
+    font-size: 1.4em;
+    font-family: 'Krub', sans-serif;
+    background-color: #F3F3F3;
+  }
+
+  .btn-container{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 15px;
+    padding: 10px;
+    justify-items: center;
+    margin: -110px 0 0;
+    align-items: flex-end;
+    
+
+    .choiceA {
+      grid-column-start: 1;
+      font-family: 'Krub', sans-serif;
+      border: 2px solid orange;
+      background-color: #222;
+      border-radius: 7px;
+
+      img {
+        width: 90px;
+      }
+      span {
+        display: inherit;
+        font-weight: 700;
+      }
+    }
+
+    .choiceA.avatar-btn {
+      grid-column-start: 1;
+      width: 115px; 
+
+    }
+
+    .choiceB {
+      grid-column-start: 2;
+      font-family: 'Krub', sans-serif;
+      border: 2px solid rgb(57, 184, 120);
+      background-color: #222;
+      border-radius: 7px;
+      color: #FFF;
+
+      img {
+        width: 90px;
+      }
+      span {
+        display: inherit;
+        font-weight: 700;
+      }
+    }
+
+    .choiceB.avatar-btn {
+      grid-column-start: 2;
+      width: 115px;
+
+    }
+  }
+
+  .score {
+    position: absolute;
+    bottom: 0px;
+    right: 35px;
+    font-family: 'Krub', sans-serif;
+    color : #FFF;
+    font-weight: 700;
+    font-size: 2em;
+    text-transform: uppercase;
+    text-shadow: 3px 3px 2px #222;
+  }
+
 }

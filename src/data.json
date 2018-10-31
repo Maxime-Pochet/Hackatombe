@@ -3,14 +3,21 @@
     "id": "0",
     "storyTitle": "On se déguise",
     "story": "Il est l'heure de me préparer pour cette soirée de chasse aux bonbons, quel déguisement vais-je choisir?",
+    "score": "0",
     "img": "https://res.cloudinary.com/dxze602g1/image/upload/v1540950614/room.png",
     "btn1": {
       "id": "1",
-      "text": "Zombie"
+      "text": "Zombie",
+      "avatar": "https://res.cloudinary.com/dxze602g1/image/upload/v1540950603/zombie.png",
+      "classText": "avatar-btn",
+      "score": "10"
     },
     "btn2": {
       "id": "1",
-      "text": "Citrouille"
+      "text": "Citrouille",
+      "avatar": "https://res.cloudinary.com/dxze602g1/image/upload/v1540973506/pumpkin2.png",
+      "classText": "avatar-btn",
+      "score": "15"
     }
   },
   {
@@ -20,11 +27,13 @@
     "img": "https://res.cloudinary.com/dxze602g1/image/upload/v1540950611/choice.png",
     "btn1": {
       "id": "2",
-      "text": "Chemin éclairé"
+      "text": "Chemin éclairé",
+      "classText": ""
     },
     "btn2": {
       "id": "3",
-      "text": "Chemin obscur"
+      "text": "Chemin obscur",
+      "classText": ""
     }
   },
   {
@@ -34,39 +43,45 @@
     "img": "https://res.cloudinary.com/dxze602g1/image/upload/v1540950608/porte_vieille.png",
     "btn1": {
       "id": "4",
-      "text": "M&M's"
+      "text": "M&M's",
+      "classText": ""
     },
     "btn2": {
       "id": "4",
-      "text": "Fraises Tagada"
+      "text": "Fraises Tagada",
+      "classText": ""
     }
   },
   {
     "id": "3",
-    "storyTitle": "Arrivée devant une maison hantée ",
+    "storyTitle": "Arrivée devant une maison avec une grand-mère ",
     "story": "Je toque à la porte, aucune réponse",
-    "img": "https://res.cloudinary.com/dxze602g1/image/upload/v1540950608/porte_hant%C3%A9e.png",
+    "img": "https://res.cloudinary.com/dxze602g1/image/upload/v1540950607/maison-vieille.png",
     "btn1": {
       "id": "5",
-      "text": "Je toque à nouveau !"
+      "text": "Je toque à nouveau !",
+      "classText": ""
     },
     "btn2": {
       "id": "6",
-      "text": "Je continue mon chemin et passe à la prochaine maison"
+      "text": "Je continue mon chemin",
+      "classText": ""
     }
   },
   {
     "id": "4",
     "storyTitle": "Un choix difficile",
     "story": "Il est 22h20 et demain j'ai un hackathon qui commence, j'hésite à continuer ma chasse ou rentrer un peu me reposer...",
-    "img": "https://res.cloudinary.com/dxze602g1/image/upload/v1540950608/porte_hant%C3%A9e.png",
+    "img": "https://res.cloudinary.com/dxze602g1/image/upload/v1540950611/choice.png",
     "btn1": {
       "id": "7",
-      "text": "Je rentre tranquillou"
+      "text": "Je rentre tranquillou",
+      "classText": ""
     },
     "btn2": {
       "id": "8",
-      "text": "Je continue mon aventure"
+      "text": "Je continue mon aventure",
+      "classText": ""
     }
   },
   {
@@ -76,25 +91,28 @@
     "img": "https://res.cloudinary.com/dxze602g1/image/upload/v1540950608/porte_hant%C3%A9e.png",
     "btn1": {
       "id": "9",
-      "text": "Voilà un chou de bruxelle mon petit ! Et je repars à la chasse aux bonbons !"
+      "text": "Voilà un chou de bruxelle mon petit ! Et je repars à la chasse aux bonbons !",
+      "classText": ""
     },
     "btn2": {
       "id": "10",
-      "text": "Bah là t'es mort   A DEFINIR  !"
+      "text": "Bah là t'es mort   A DEFINIR  !",
+      "classText": ""
     }
   },
   {
     "id": "6",
-    "storyTitle": "L'aventure continue ",
+    "storyTitle": "L'aventure continue, je suis devant une maison hantée !",
     "story": "XXXXX",
-    "img": "https://res.cloudinary.com/dxze602g1/image/upload/v1540950608/porte_hant%C3%A9e.png",
+    "img": "https://res.cloudinary.com/dxze602g1/image/upload/v1540950604/haunted-house.png",
     "btn1": {
       "id": "9",
-      "text": "pour l'instant je vais à 9"
+      "text": "Je rentre dedans, même pas peur !"
     },
     "btn2": {
       "id": "10",
-      "text": "pour l'instant je vais à 10"
+      "text": "J'en ai marre de tout ce stress, tcho les nazes je rentre",
+      "classText": ""
     }
   },
   {
@@ -104,25 +122,29 @@
     "img": "https://res.cloudinary.com/dxze602g1/image/upload/v1540950603/zombie-alone.png",
     "btn1": {
       "id": "8",
-      "text": "pour l'instant je vais à 8"
+      "text": "pour l'instant je vais à 8",
+      "classText": ""
     },
     "btn2": {
       "id": "0",
-      "text": "pour l'instant je vais à 0"
+      "text": "pour l'instant je vais à 0",
+      "classText": ""
     }
   },
   {
     "id": "8",
     "storyTitle": "Une nouvelle maison",
-    "story": "Après une petite marche dans le quartier, j'arrive à une nouvelle maison. Je frappe à la porte, mais perosnne ne me répond.",
+    "story": "Après une petite marche dans le quartier, j'arrive à une nouvelle maison. Je frappe à la porte, mais personne ne me répond.",
     "img": "https://res.cloudinary.com/dxze602g1/image/upload/v1540950605/alley.png",
     "btn1": {
       "id": "11",
-      "text": "Je décide tout de même d'entrer dans la maison"
+      "text": "Je décide tout de même d'entrer dans la maison",
+      "classText": ""
     },
     "btn2": {
       "id": "7",
-      "text": "Je rentre en courant"
+      "text": "Je rentre en courant",
+      "classText": ""
     }
   },
   {
@@ -141,8 +163,8 @@
   },
   {
     "id": "10",
-    "storyTitle": "X",
-    "story": "X.",
+    "storyTitle": "Je suis rentré chez moi sans être mort",
+    "story": "Je suis rentrée chez moi, normalement de de boutons mais affichage du score avec une phrase",
     "img": "https://res.cloudinary.com/dxze602g1/image/upload/v1540950603/zombie-alone.png",
     "btn1": {
       "id": "0",

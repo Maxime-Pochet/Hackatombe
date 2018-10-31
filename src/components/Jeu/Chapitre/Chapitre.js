@@ -15,46 +15,59 @@ const url =
 
 export default class Chapitre extends Component {
   state = {
-    currentPosition: 0
+    currentPosition: 0,
+    totalScore : 0
   };
 
   handleClick = e => {
     console.log(e.target.name);
     this.setState({
-      currentPosition: e.target.name
+      currentPosition: e.target.name,
+      // totalScore : totalScore + 
     });
   };
 
   render() {
-    return (
-      <div
-        className="testContainer"
-        style={{
-          backgroundImage: `url(${jsonData[this.state.currentPosition].img})`,
-          height: "90vh"
-        }}
-        // style={{
-        //   backgroundColor: "red"
-        // }}
-      >
-        <h2>{jsonData[this.state.currentPosition].storyTitle}</h2>
-        <p>{jsonData[this.state.currentPosition].story}</p>
-        <button
-          name={jsonData[this.state.currentPosition].btn1.id}
-          className="choiceA"
-          onClick={this.handleClick}
+    console.log(jsonData[this.state.currentPosition].img);
+    // if (this.state.currentPosition !== 5) {
+      return (
+        <div
+          className="chapter-container"
+          style={{backgroundImage: `url(${jsonData[this.state.currentPosition].img})`}}
+  
         >
-          {jsonData[this.state.currentPosition].btn1.text}
-        </button>
+          <h2 className="chapter-title">{jsonData[this.state.currentPosition].storyTitle}</h2>
+          <p className="chapter-text">{jsonData[this.state.currentPosition].story}</p>
+          <p className="btn-container">
+            <button
+              name={jsonData[this.state.currentPosition].btn1.id}
+              className={`choiceA ${jsonData[this.state.currentPosition].btn1.classText}`}
+              onClick={this.handleClick}
+            >
+            {!(jsonData[this.state.currentPosition].btn1.avatar) && <i class="fas fa-ghost icon"></i>}
+            {jsonData[this.state.currentPosition].btn1.avatar && <img src={jsonData[this.state.currentPosition].btn1.avatar}/>}
+              <span>{jsonData[this.state.currentPosition].btn1.text}</span>
+            </button>
+  
+            <button
+              name={jsonData[this.state.currentPosition].btn2.id}
+              className={`choiceB ${jsonData[this.state.currentPosition].btn2.classText}`}
+              onClick={this.handleClick}
+            >
+            {!(jsonData[this.state.currentPosition].btn2.avatar) && <i class="fas fa-ghost icon"></i>}
+            
+            {jsonData[this.state.currentPosition].btn2.avatar && <img src={jsonData[this.state.currentPosition].btn2.avatar}/>}
+              <span>{jsonData[this.state.currentPosition].btn2.text}</span>
+            </button>
+          </p>
+          <p className="score">Score : {this.state.totalScore}</p>
+        </div>
+      );
+    // } else {
+    //   return (
+    //   <p>hop la chocolat</p>
+    //   )
+    // }
 
-        <button
-          name={jsonData[this.state.currentPosition].btn2.id}
-          className="choiceB"
-          onClick={this.handleClick}
-        >
-          {jsonData[this.state.currentPosition].btn2.text}
-        </button>
-      </div>
-    );
   }
 }
