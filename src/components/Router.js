@@ -4,7 +4,6 @@ import Home from "./Home/Home";
 import PacMan from "./PacMan/PacMan";
 import Start from "./Jeu/Start/Start";
 import Base from "./Jeu/Base/Base";
-import "./Jeu/Story.scss";
 
 export default class Router extends Component {
   render() {
@@ -14,7 +13,7 @@ export default class Router extends Component {
           <Route exact path="/" component={Home} />
           <Route path="/pacman" component={PacMan} />
           <Route path="/start" component={Start} />
-          <Route path="/base" component={Base} />
+          <Route path="/prologue" component={Base} />
         </Switch>
       </BrowserRouter>
     );
