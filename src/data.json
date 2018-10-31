@@ -1,0 +1,132 @@
+[
+  {
+    "id": "0",
+    "storyTitle": "On se déguise",
+    "story": "Il est l'heure de me préparer pour cette soirée de chasse aux bonbons, quel déguisement vais-je choisir?",
+    "btn1": {
+      "id": "1",
+      "text": "Zombie"
+    },
+    "btn2": {
+      "id": "1",
+      "text": "Citrouille"
+    }
+  },
+  {
+    "id": "1",
+    "storyTitle": "Départ pour l'aventure",
+    "story": "Dès la sortie de ma maison, je me retrouve avec un choix crucial, choisir ma direction:",
+    "btn1": {
+      "id": "2",
+      "text": "Chemin éclairé"
+    },
+    "btn2": {
+      "id": "3",
+      "text": "Chemin obscur"
+    }
+  },
+  {
+    "id": "2",
+    "storyTitle": "Arrivée devant une belle maison",
+    "story": "Après avoir sonné, une famille m'ouvre la porte et me propose de choisir entre deux types de bonbons:",
+    "btn1": {
+      "id": "4",
+      "text": "M&M's"
+    },
+    "btn2": {
+      "id": "4",
+      "text": "Fraises Tagada"
+    }
+  },
+  {
+    "id": "3",
+    "storyTitle": "Arrivée devant une maison hantée ",
+    "story": "Je toque à la porte, aucune réponse",
+    "btn1": {
+      "id": "5",
+      "text": "Je toque à nouveau !"
+    },
+    "btn2": {
+      "id": "6",
+      "text": "Je continue mon chemin et passe à la prochaine maison"
+    }
+  },
+  {
+    "id": "4",
+    "storyTitle": "Un choix difficile",
+    "story": "Il est 22h20 et demain j'ai un hackathon qui commence, j'hésite à continuer ma chasse ou rentrer un peu me reposer...",
+    "btn1": {
+      "id": "7",
+      "text": "Je rentre tranquillou"
+    },
+    "btn2": {
+      "id": "8",
+      "text": "Je continue mon aventure"
+    }
+  },
+  {
+    "id": "5",
+    "storyTitle": "J' ai retoqué ! ",
+    "story": "J'entends un bruit de s'approcher, une grand mère m'ouvre la porte ATTENTION CECI N'EST PAS TERMINE LOL",
+    "btn1": {
+      "id": "9",
+      "text": "Voilà un chou de bruxelle mon petit ! Et je repars à la chasse aux bonbons !"
+    },
+    "btn2": {
+      "id": "10",
+      "text": "Bah là t'es mort   A DEFINIR  !"
+    }
+  },
+  {
+    "id": "6",
+    "storyTitle": "L'aventure continue ",
+    "story": "XXXXX",
+    "btn1": {
+      "id": "X",
+      "text": "X"
+    },
+    "btn2": {
+      "id": "X",
+      "text": "X"
+    }
+  },
+  {
+    "id": "7",
+    "storyTitle": "Game Over",
+    "story": "Une belle mort.",
+    "btn1": {
+      "id": "X",
+      "text": "X"
+    },
+    "btn2": {
+      "id": "X",
+      "text": "X"
+    }
+  },
+  {
+    "id": "8",
+    "storyTitle": "Une nouvelle maison",
+    "story": "Après une petite marche dans le quartier, j'arrive à une nouvelle maison. Je frappe à la porte, mais perosnne ne me répond.",
+    "btn1": {
+      "id": "11",
+      "text": "Je décide tout de même d'entrer dans la maison"
+    },
+    "btn2": {
+      "id": "7",
+      "text": "Je rentre en courant"
+    }
+  },
+  {
+    "id": "9",
+    "storyTitle": "Une autre maison",
+    "story": "Si je suis un zombie, je repère un panier de bonbons, je me faufile en faisant le zombie ! Si je suis une citrouille je me fais bouffer",
+    "btn1": {
+      "id": "12",
+      "text": "Je me dirige vers une allée abandonnée "
+    },
+    "btn2": {
+      "id": "13",
+      "text": "Bah là t'es mort   A DEFINIR  !"
+    }
+  }
+]

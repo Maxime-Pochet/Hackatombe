@@ -4,6 +4,7 @@ import Home from "./Home/Home";
 import PacMan from "./PacMan/PacMan";
 import Start from "./Jeu/Start/Start";
 import Base from "./Jeu/Base/Base";
+import Chapitre from "./Jeu/Chapitre/Chapitre";
 import "./Jeu/Story.scss";
 
 export default class Router extends Component {
@@ -15,6 +16,7 @@ export default class Router extends Component {
           <Route path="/pacman" component={PacMan} />
           <Route path="/start" component={Start} />
           <Route path="/base" component={Base} />
+          <Route path="/chapitre" component={Chapitre} />
         </Switch>
       </BrowserRouter>
     );
