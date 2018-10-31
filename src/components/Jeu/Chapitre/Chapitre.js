@@ -3,6 +3,7 @@ import jsonData from "../../../data.json";
 import { NavLink } from "react-router-dom";
 import TheEnd from "../End/TheEnd";
 import "./Chapitre.scss";
+import GameOver from "../GameOver/GameOver.js";
 
 const url =
   "https://res.cloudinary.com/dxze602g1/image/upload/v1540950614/room.png";
@@ -54,14 +55,14 @@ export default class Chapitre extends Component {
       (this.state.currentPosition === "13" &&
         this.state.avatar === jsonData[0].btn1.avatar)
     ) {
-      return <p>Je meurs je suis un zombie</p>;
+      return <GameOver text={jsonData[this.state.currentPosition].mort} />;
     } else if (
       this.state.currentPosition === "9" &&
       this.state.avatar === jsonData[0].btn2.avatar
     ) {
-      return <p>Je meurs je suis une citrouille</p>;
+      return <GameOver text={jsonData[this.state.currentPosition].mort} />;
     } else if (this.state.currentPosition === "7") {
-      return <p>Je meurs je suis une citrouille</p>;
+      return <GameOver text={jsonData[this.state.currentPosition].mort} />;
     } else if (this.state.currentPosition === "10") {
       return <TheEnd score={this.state.totalScore} />;
     } else {
