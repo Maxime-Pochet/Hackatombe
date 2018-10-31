@@ -5,7 +5,7 @@
     background-size: cover;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 3fr 1fr;
+    grid-template-rows: 1fr;
     position: relative;
     overflow: hidden;
 
@@ -24,39 +24,41 @@
 
         .batman {
             position: absolute;
-            left: 16%;
-            top: 11%;
+            right: 5%;
+            top: 5%;
+            z-index: 0;
         }
 
 
     h2 {
         margin: 0;
         text-align: center;
-        font-size: 5em;
+        font-size: 4em;
         text-transform: uppercase;
         color: #F3F3F3;
         font-family: 'Fontdiner Swanky', cursive;
         letter-spacing: 10px;
-        grid-column: 1 / 2;
+        grid-column: 2 / 3;
         grid-row: 1 / 2;
         justify-self: center;
         align-self: center;
         text-shadow: 3px 3px 2px #222;
-        padding-top: 102px;
     }
 
     p{
         margin: 0;
         text-align: center;
-        font-size: 2em;
+        font-size: 1.8em;
         color: rgb(187, 179, 179);
         font-family: 'Krub', sans-serif;
         grid-column: 1 / 2;
         grid-row: 1 / 2;
         justify-self: center;
-        align-self: flex-end;
+        align-self: center;
         text-shadow: 3px 3px 2px #222;
         padding-bottom: 60px;
+        font-weight: 700;
+        z-index: 9;
     }
 
     .hand {

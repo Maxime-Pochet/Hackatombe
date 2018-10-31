@@ -33,7 +33,7 @@
     },
     "btn2": {
       "id": "3",
-      "text": "Chemin obscure",
+      "text": "Route obscure",
       "classText": "",
       "score": "15"
     }
@@ -96,7 +96,7 @@
     "id": "5",
     "storyTitle": "J'ai retoqué ! ",
     "story": "J'entends des bruits de pas qui s'approchent. Une grand mère m'ouvre la porte; Elle me félicite pour mon costume, et me donne un choux de bruxelle..",
-    "img": "https://res.cloudinary.com/dxze602g1/image/upload/v1540950608/porte_hant%C3%A9e.png",
+    "img": "https://res.cloudinary.com/dxze602g1/image/upload/v1540950607/maison-vieille.png",
     "mort": "J'entends des bruits de pas qui s'approchent. Une grand mère m'ouvre la porte, s'écrit en voyant mon déguisement, sort son fusil à pompe et me tire dessus.",
     "btn1": {
       "id": "10",
@@ -168,7 +168,7 @@
     "id": "9",
     "storyTitle": "Dans la maison hantée",
     "story": "Je rentre doucement dans la maison et me dirige vers la cuisine et une horde de zombies est regroupée dans le salon. Je me faufile en grognant comme les zombies, pour prendre un énorme paquet de haribo et je repars de cet endroit ! Heureusement que j'étais deguisé en zombie...",
-    "mort": "Je rentre doucement dans la maison et me dirige vers la cuisine et une horde de zombies est regroupée dans le salon. J'essaie de reculer doucement, le plancher craque et les zombies se retournent dans ma direction. L'un d'eux ce jette sur moi...",
+    "mort": "Je rentre doucement dans la maison et me dirige vers la cuisine et une horde de zombies est regroupée dans le salon. J'essaie de reculer doucement, le plancher craque et les zombies se retournent dans ma direction. L'un d'eux se jette sur moi...",
     "img": "https://res.cloudinary.com/dxze602g1/image/upload/v1540950608/porte_hant%C3%A9e.png",
     "btn1": {
       "id": "11",
@@ -224,7 +224,7 @@
       "score": "0"
     },
     "btn2": {
-      "id": "7",
+      "id": "10",
       "text": "Je garde le silence, peut-être qu'ils ne me verront pas ..",
       "score": "0"
     }
