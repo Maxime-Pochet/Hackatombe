@@ -1,18 +1,22 @@
 import React, { Component } from "react";
-
 import { NavLink } from "react-router-dom";
+import BGHome from './pictures/bghome.jpg';
+import Pacman from './pictures/pacman.png';
+import Jeu from './pictures/jeu.png'
+import './Home.scss';
+
 
 export default class Home extends Component {
   render() {
     return (
-      <div>
-        <p>Page du site entier du monde</p>
+      <div className="container_home" style={{backgroundImage: `url(${BGHome})`}}>
+        <h1 className="title_home">HALLOWEEN GAMES</h1>
 
-        <div>
-          <NavLink to="/pacman">PacMan</NavLink>
+        <div className="link_home">
+          <a href="https://thorrion.github.io/Pacman-Skull/" target="_blank" style={{backgroundImage: `url(${Pacman})`}}> </a>
         </div>
-        <div>
-          <NavLink to="/menu">Story Game</NavLink>
+        <div className="link_home">
+          <NavLink to="/menu" style={{backgroundImage: `url(${Jeu})`}}></NavLink>
         </div>
       </div>
     );
