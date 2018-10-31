@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import { NavLink } from "react-router-dom";
 import Chapitre from '../Chapitre/Chapitre'
-// import "../Story/Story.scss";
 
 export default class Start extends Component {
   render() {
@@ -13,7 +12,7 @@ export default class Start extends Component {
         </p>
         <div>
           <p>
-            <NavLink to="/chapitre">Chapitre 1</NavLink>
+            <NavLink to="/chapitre">Chapitre</NavLink>
           </p>
           <p>
             <NavLink to="/">Abandon</NavLink>
