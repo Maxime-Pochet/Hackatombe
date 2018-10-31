@@ -2,14 +2,6 @@ import React, { Component } from "react";
 import jsonData from "../../../data.json";
 import { NavLink } from "react-router-dom";
 import "./Chapitre.scss";
-// console.log(jsonData);
-// const chapitreDetails = {
-//   storyTitle: "",
-//   story: "",
-//   choiceA: "",
-//   choiceB: "",
-//   choiceC: ""
-// };
 
 const url =
   "https://res.cloudinary.com/dxze602g1/image/upload/v1540950614/room.png";
@@ -17,25 +9,35 @@ const url =
 export default class Chapitre extends Component {
   state = {
     currentPosition: 0,
-    totalScore : 0
+    totalScore : 0,
+    avatar: jsonData[0].avatar
   };
 
   handleClickButton1 = e => {
-    console.log(e.target.name);
+    console.log(jsonData[this.state.currentPosition].id);
     this.setState({
       currentPosition: e.target.name,
       totalScore : this.state.totalScore + parseInt(jsonData[this.state.currentPosition].btn1.score)
     });
+    if (this.state.avatar === jsonData[0].avatar || jsonData[this.state.currentPosition].id === "0") {
+      this.setState({avatar : jsonData[0].btn1.avatar})
+    } else {
+      return this.state.avatar
+    }
   };
 
   handleClickButton2 = e => {
-    console.log(e.target.name);
+    console.log(jsonData[this.state.currentPosition]);
     this.setState({
       currentPosition: e.target.name,
       totalScore : this.state.totalScore + parseInt(jsonData[this.state.currentPosition].btn2.score)
     });
+    if (this.state.avatar === jsonData[0].avatar || jsonData[this.state.currentPosition].id === "0" ) {
+      this.setState({avatar : jsonData[0].btn2.avatar})
+    } else {
+      return this.state.avatar
+    }
   };
-
   render() {
 
     // if (this.state.currentPosition !== 5) {
@@ -46,6 +48,10 @@ export default class Chapitre extends Component {
   
         >
         <NavLink className="back-home" to="/prologue"><i class="fas fa-door-open"></i></NavLink>
+          <div className="pseudo-card">
+            <img src={this.state.avatar}/>
+            <p>{this.props.location.state.pseudo}</p>
+          </div>
           <h2 className="chapter-title">{jsonData[this.state.currentPosition].storyTitle}</h2>
           <p className="chapter-text">{jsonData[this.state.currentPosition].story}</p>
           <p className="btn-container">

@@ -10,7 +10,7 @@
   .contenu-text {
     text-align: center;
     display: grid;
-    grid-template-rows: 1fr 2fr 1fr;
+    grid-template-rows: 1fr 2fr 1fr 1fr;
     align-items: center;
     height: 100%;
     background-position: bottom;
@@ -54,7 +54,7 @@
     }
 
     .link-start-game {
-      grid-row-start: 3;
+      grid-row-start: 4;
 
       a {
         text-decoration: none;
@@ -76,6 +76,9 @@
         border: 2px solid #80B33B;
       }
     }
+      input {
+        margin: 0 40%;
+      }
   }
 }
 

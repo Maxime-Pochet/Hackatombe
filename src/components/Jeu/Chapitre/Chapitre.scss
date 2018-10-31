@@ -9,6 +9,24 @@
   grid-template-rows: 1fr 2fr 1fr;
   align-items: center;
 
+  .pseudo-card {
+    position : absolute;
+    top:15px;
+    right: 15px;
+    font-family: 'Krub', sans-serif;
+    color : #FFF;
+    font-weight: 700;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    text-shadow: 3px 3px 2px #222;
+    p{
+      margin-top: -5px;
+    }
+    img {
+      height: 10vh;
+    }
+  }
+
   .back-home {
     position: absolute;
     top: 10px;
@@ -25,7 +43,7 @@
 
   .chapter-title {
     align-self: end;
-    margin: 0 0 0 45px;
+    margin: 0 45px 0 45px;
     grid-row-start: 1;
     font-size: 3em;
     text-transform: uppercase;
