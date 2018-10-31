@@ -3,21 +3,20 @@
     "id": "0",
     "storyTitle": "On se déguise",
     "story": "Il est l'heure de me préparer pour cette soirée de chasse aux bonbons, quel déguisement vais-je choisir?",
-    "score": "0",
     "img": "https://res.cloudinary.com/dxze602g1/image/upload/v1540950614/room.png",
     "btn1": {
       "id": "1",
       "text": "Zombie",
       "avatar": "https://res.cloudinary.com/dxze602g1/image/upload/v1540950603/zombie.png",
       "classText": "avatar-btn",
-      "score": "10"
+      "score": "0"
     },
     "btn2": {
       "id": "1",
       "text": "Citrouille",
       "avatar": "https://res.cloudinary.com/dxze602g1/image/upload/v1540973506/pumpkin2.png",
       "classText": "avatar-btn",
-      "score": "15"
+      "score": "0"
     }
   },
   {
@@ -28,12 +27,14 @@
     "btn1": {
       "id": "2",
       "text": "Chemin éclairé",
-      "classText": ""
+      "classText": "",
+      "score": "10"
     },
     "btn2": {
       "id": "3",
       "text": "Chemin obscur",
-      "classText": ""
+      "classText": "",
+      "score": "15"
     }
   },
   {
@@ -44,12 +45,14 @@
     "btn1": {
       "id": "4",
       "text": "M&M's",
-      "classText": ""
+      "classText": "",
+      "score": "20"
     },
     "btn2": {
       "id": "4",
       "text": "Fraises Tagada",
-      "classText": ""
+      "classText": "",
+      "score": "30"
     }
   },
   {
@@ -60,12 +63,14 @@
     "btn1": {
       "id": "5",
       "text": "Je toque à nouveau !",
-      "classText": ""
+      "classText": "",
+      "score": "10"
     },
     "btn2": {
       "id": "6",
       "text": "Je continue mon chemin",
-      "classText": ""
+      "classText": "",
+      "score": "10"
     }
   },
   {
