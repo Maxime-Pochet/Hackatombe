@@ -9,6 +9,20 @@
   grid-template-rows: 1fr 2fr 1fr;
   align-items: center;
 
+  .back-home {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    text-decoration: none;
+    font-size: 2.3em;
+    color: #222;
+  }
+
+  .back-home:hover {
+    color: #80B33B;
+  }
+
+
   .chapter-title {
     align-self: end;
     margin: 0 0 0 45px;
@@ -17,18 +31,20 @@
     text-transform: uppercase;
     color: #fff;
     font-family: 'Fontdiner Swanky', cursive;
+    letter-spacing: 2px;
   }
 
   .chapter-text {
     grid-row-start: 2;
-    margin: 0 auto;
+    margin: -50px auto 0;
     width: 60vw;
     padding: 14px 0;
     border-radius: 7px;
     opacity: 0.8;
     font-size: 1.4em;
     font-family: 'Krub', sans-serif;
-    background-color: #F3F3F3;
+    background-color: #222;
+    color: #F3F3F3;
   }
 
   .btn-container{
@@ -37,19 +53,25 @@
     grid-column-gap: 15px;
     padding: 10px;
     justify-items: center;
-    margin: -110px 0 0;
+    margin: -180px 0 0;
     align-items: flex-end;
     
 
     .choiceA {
       grid-column-start: 1;
       font-family: 'Krub', sans-serif;
-      border: 2px solid orange;
-      background-color: #222;
+      border: 4px solid #d55d1f;
+      background-color: #F3F3F3E6;
       border-radius: 7px;
+      cursor: pointer;
+      font-size: 1.3em;
+
+      .icon {
+        color: #d55d1f;
+      }
 
       img {
-        width: 90px;
+        width: 170px;
       }
       span {
         display: inherit;
@@ -59,20 +81,32 @@
 
     .choiceA.avatar-btn {
       grid-column-start: 1;
-      width: 115px; 
+      width: 190px; 
+      justify-self: flex-end;
+      margin-right: 70px;
 
+    }
+
+    .choiceA:hover {
+      background-color: #222;
+      color: #F3F3F3;
     }
 
     .choiceB {
       grid-column-start: 2;
       font-family: 'Krub', sans-serif;
-      border: 2px solid rgb(57, 184, 120);
-      background-color: #222;
+      border: 4px solid #97b2a1;
+      background-color: #F3F3F3E6;
       border-radius: 7px;
-      color: #FFF;
+      cursor: pointer;
+      font-size: 1.3em;
+
+      .icon {
+        color: #97b2a1;
+      }
 
       img {
-        width: 90px;
+        width: 170px;
       }
       span {
         display: inherit;
@@ -82,8 +116,17 @@
 
     .choiceB.avatar-btn {
       grid-column-start: 2;
-      width: 115px;
+      width: 190px;
+      justify-self: flex-start;
+      align-self: center;
+      margin-left: 70px;
+      
 
+    }
+
+    .choiceB:hover {
+      background-color: #222;
+      color: #F3F3F3;
     }
   }
 

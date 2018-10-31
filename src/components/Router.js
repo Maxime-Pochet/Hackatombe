@@ -4,6 +4,7 @@ import Home from "./Home/Home";
 import Start from "./Jeu/Start/Start";
 import Base from "./Jeu/Base/Base";
 import Chapitre from "./Jeu/Chapitre/Chapitre";
+import TheEnd from './Jeu/End/TheEnd'
 import "./Jeu/Story.scss";
 
 export default class Router extends Component {
@@ -15,6 +16,7 @@ export default class Router extends Component {
           <Route path="/start" component={Start} />
           <Route path="/prologue" component={Base} />
           <Route path="/chapitre" component={Chapitre} />
+          <Route path="/the-end" component={TheEnd} />
         </Switch>
       </BrowserRouter>
     );
