@@ -15,7 +15,7 @@ export default class Router extends Component {
           <Route exact path="/" component={Home} />
           <Route path="/pacman" component={PacMan} />
           <Route path="/start" component={Start} />
-          <Route path="/base" component={Base} />
+          <Route path="/prologue" component={Base} />
           <Route path="/chapitre" component={Chapitre} />
         </Switch>
       </BrowserRouter>

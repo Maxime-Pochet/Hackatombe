@@ -1,6 +1,82 @@
-.storyContainer {
-  width: 95vw;
-  height: 90vh;
-  border: 2px solid #222;
-  margin: 30px auto;
+.base {
+  background-color: #222;
+
 }
+
+.storyContainer {
+  width: 100vw;
+  height: 100vh;
+
+  .contenu-text {
+    text-align: center;
+    display: grid;
+    grid-template-rows: 1fr 2fr 1fr;
+    align-items: center;
+    // margin: 15px;
+    height: 100%;
+    box-shadow: 4px 5px 5px #000;
+    background-position: bottom;
+    background-size: cover;
+    position: relative;
+
+    .back-home {
+      position: absolute;
+      top: 10px;
+      left: 10px;
+      text-decoration: none;
+      font-size: 2.3em;
+      color: #222;
+    }
+
+    .back-home:hover {
+      color: #80B33B;
+    }
+
+    .storySubtitle {
+      align-self: end;
+      text-align: left;
+      margin: 0 0 0 45px;
+      grid-row-start: 1;
+      font-size: 3em;
+      text-transform: uppercase;
+      color: #fff;
+      font-family: 'Fontdiner Swanky', cursive;
+    }
+
+    .chapterStory {
+      grid-row-start: 2;
+      margin: 0px 61px;
+      padding: 14px;
+      border-radius: 7px;
+      opacity: 0.8;
+      font-size: 1.2em;
+      background-color: #F3F3F3;
+    }
+
+    .link-start-game {
+      grid-row-start: 3;
+
+      a {
+        text-decoration: none;
+        font-size: 1.3em;
+        text-transform: uppercase;
+        color: #F3F3F3;
+        background: #222;
+        padding: 10px 15px;
+        border-radius: 4px;
+        border: 2px solid #F3F3F3;
+        font-weight: 800;
+      }
+
+      a:hover {
+        color: #80B33B;
+        background: #F3F3F3;
+        padding: 10px 15px;
+        border-radius: 4px;
+        border: 2px solid #80B33B;
+      }
+    }
+  }
+}
+
+

@@ -12,7 +12,7 @@ export default class Home extends Component {
           <NavLink to="/pacman">PacMan</NavLink>
         </div>
         <div>
-          <NavLink to="/base">Story Game</NavLink>
+          <NavLink to="/prologue">Story Game</NavLink>
         </div>
       </div>
     );
