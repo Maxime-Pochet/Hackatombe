@@ -133,14 +133,15 @@
 
   .score {
     position: absolute;
-    bottom: 0px;
-    right: 35px;
+    bottom: 5px;
+    right: 25px;
     font-family: 'Krub', sans-serif;
     color : #FFF;
     font-weight: 700;
     font-size: 2em;
     text-transform: uppercase;
     text-shadow: 3px 3px 2px #222;
+    margin: 0;
   }
 
 }
