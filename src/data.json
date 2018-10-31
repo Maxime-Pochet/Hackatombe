@@ -81,12 +81,14 @@
     "btn1": {
       "id": "10",
       "text": "Je rentre tranquillou",
-      "classText": ""
+      "classText": "",
+        "score": "5"
     },
     "btn2": {
       "id": "6",
       "text": "Je continue mon aventure",
-      "classText": ""
+      "classText": "",
+        "score": "15"
     }
   },
   {
@@ -97,12 +99,14 @@
     "btn1": {
       "id": "10",
       "text": "Merci Madame.. Du coup je vais rentrer chez moi et faire un gratin de choux ..",
-      "classText": ""
+      "classText": "",
+        "score": "-15"
     },
     "btn2": {
       "id": "6",
       "text": "J'aime pas les choux, je continue pour trouver d'autres bonbons !",
-      "classText": ""
+      "classText": "",
+      "score": "-15"
     }
   },
   {
@@ -112,12 +116,14 @@
     "img": "https://res.cloudinary.com/dxze602g1/image/upload/v1540950604/haunted-house.png",
     "btn1": {
       "id": "9",
-      "text": "Je rentre dans la maison, même pas peur !"
+      "text": "Je rentre dans la maison, même pas peur !",
+      "score": "15"
     },
     "btn2": {
       "id": "10",
       "text": "J'en ai marre de tout ce stress, tcho les nazes je rentre",
-      "classText": ""
+      "classText": "",
+      "score": "5"
     }
   },
   {
@@ -144,12 +150,14 @@
     "btn1": {
       "id": "6",
       "text": "Je décide tout de même d'entrer dans la maison",
-      "classText": ""
+      "classText": "",
+      "score": "15"
     },
     "btn2": {
       "id": "10",
       "text": "Je rentre en courant",
-      "classText": ""
+      "classText": "",
+      "score": "5"
     }
   },
   {
@@ -159,11 +167,14 @@
     "img": "https://res.cloudinary.com/dxze602g1/image/upload/v1540950608/porte_hant%C3%A9e.png",
     "btn1": {
       "id": "11",
-      "text": "Je pars en courant vers une allée abandonnée "
+      "text": "Je pars en courant vers une allée abandonnée ",
+      "score": "10"
+
     },
     "btn2": {
       "id": "10",
-      "text": "Je rentre chez moi J'EN AI VRAIMENT ASSEZ !"
+      "text": "Je rentre chez moi J'EN AI VRAIMENT ASSEZ !",
+      "score": "5"
     }
   },
   {
@@ -187,11 +198,13 @@
     "img": "https://res.cloudinary.com/dxze602g1/image/upload/v1540950605/alley.png",
     "btn1": {
       "id": "13",
-      "text": "Cette fois je fais mes lacets et je rentre chez moi"
+      "text": "Cette fois je fais mes lacets et je rentre chez moi",
+      "score": "20"
     },
     "btn2": {
       "id": "12",
-      "text": "JE RENTRE CHEZ MOI EN COURANT PARCE QUE J'EN AI MARRE D'ETRE DEHORS !!"
+      "text": "JE RENTRE CHEZ MOI EN COURANT PARCE QUE J'EN AI MARRE D'ETRE DEHORS !!",
+      "score": "20"
     }
   },
   {
@@ -201,11 +214,13 @@
     "img": "https://res.cloudinary.com/dxze602g1/image/upload/v1540950605/alley.png",
     "btn1": {
       "id": "7",
-      "text": "NOOOOOON !!"
+      "text": "NOOOOOON !!",
+      "score": "0"
     },
     "btn2": {
       "id": "7",
-      "text": "Je garde le silence, peut-être qu'ils ne me verront pas .."
+      "text": "Je garde le silence, peut-être qu'ils ne me verront pas ..",
+      "score": "0"
     }
   },
   {
@@ -215,11 +230,13 @@
     "img": "https://res.cloudinary.com/dxze602g1/image/upload/v1540950604/neighbor.png",
     "btn1": {
       "id": "10",
-      "text": "Oui merci beaucoup j'admire vraiment les voisins vigilants !"
+      "text": "Oui merci beaucoup j'admire vraiment les voisins vigilants !",
+      "score": "20"
     },
     "btn2": {
-      "id": "10",
-      "text": "Non merci je suis pas un collabo je vais rentrer."
+      "id": "7",
+      "text": "Non merci je suis pas un collabo je vais rentrer.",
+      "score": "10"
     }
   }
 ]
