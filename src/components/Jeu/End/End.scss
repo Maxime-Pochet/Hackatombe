@@ -1,0 +1,66 @@
+.end-container {
+    width: 100vw;
+    height: 100vh;
+    background-position: bottom;
+    background-size: cover;
+    display: grid;
+    grid-template-rows: 3fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    position: relative;
+
+    .back-home {
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        text-decoration: none;
+        font-size: 2.3em;
+        color: #222;
+    }
+
+    .back-home:hover {
+    color: #80B33B;
+    }
+
+    h2 {
+        margin: 0;
+        text-align: center;
+        font-size: 3em;
+        text-transform: uppercase;
+        color: #F3F3F3;
+        font-family: 'Fontdiner Swanky', cursive;
+        letter-spacing: 2px;
+        grid-row-start: 2;
+        grid-column: 1 / 4;
+        justify-self: center;
+        align-self: flex-end;
+        text-shadow: 3px 3px 2px #222;
+    }
+
+    .end-score{
+        grid-row-start: 1;
+        grid-column: 1 / 2;
+        justify-self: center;
+        align-self: center;
+        font-size: 2.7em;
+        text-transform: uppercase;
+        font-family: 'Fontdiner Swanky', cursive;
+
+        span {
+            font-weight: bold;
+            font-family: 'Krub', sans-serif;
+            color: #d55d1f;
+            display: block;
+            font-size: 2.7em;
+            text-align: center;
+        }
+    }
+
+    .end-funny{
+        grid-row-start: 1;
+        grid-column: 3 / 4;
+        justify-self: center;
+        align-self: center;
+        font-family: 'Krub', sans-serif;
+        font-size: 2.7em;
+    }
+}

@@ -1,0 +1,71 @@
+.gameOver-container {
+    width: 100vw;
+    height: 100vh;
+    background-position: bottom;
+    background-size: cover;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    position: relative;
+    overflow: hidden;
+
+    .back-home {
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        text-decoration: none;
+        font-size: 2.3em;
+        color: #222;
+    }
+
+    .back-home:hover {
+    color: #80B33B;
+    }
+
+        .batman {
+            position: absolute;
+            right: 5%;
+            top: 5%;
+            z-index: 0;
+        }
+
+
+    h2 {
+        margin: 0;
+        text-align: center;
+        font-size: 4em;
+        text-transform: uppercase;
+        color: #F3F3F3;
+        font-family: 'Fontdiner Swanky', cursive;
+        letter-spacing: 10px;
+        grid-column: 2 / 3;
+        grid-row: 1 / 2;
+        justify-self: center;
+        align-self: center;
+        text-shadow: 3px 3px 2px #222;
+    }
+
+    p{
+        margin: 0;
+        text-align: center;
+        font-size: 1.8em;
+        color: rgb(187, 179, 179);
+        font-family: 'Krub', sans-serif;
+        grid-column: 1 / 2;
+        grid-row: 1 / 2;
+        justify-self: center;
+        align-self: center;
+        text-shadow: 3px 3px 2px #222;
+        padding-bottom: 60px;
+        font-weight: 700;
+        z-index: 9;
+    }
+
+    .hand {
+        position: absolute;
+        width: 107px;
+        bottom: -47px;
+        left: 21%;
+    }
+
+}
