@@ -114,7 +114,7 @@
   {
     "id": "6",
     "storyTitle": "L'aventure continue !",
-    "story": "Je suis devant une maison hantée !La maison est immense, tout le monde dans le quartier m'a dit qu'elle était hantée. Si je rentre je vais peut-être trouver des tas de trucs cool ! En même temps j'entends des grognements..",
+    "story": "Je suis devant une maison hantée ! La maison est immense, tout le monde dans le quartier m'a dit qu'elle était hantée. Si je rentre je vais peut-être trouver des tas de trucs cool ! En même temps j'entends des grognements..",
     "img": "https://res.cloudinary.com/dxze602g1/image/upload/v1540950604/haunted-house.png",
     "btn1": {
       "id": "9",
@@ -232,8 +232,8 @@
   {
     "id": "13",
     "storyTitle": "Mais qui sont-ils ?",
-    "story": "Alors que tu rentres chez toi, tu croises un groupe de personnes. Ils font partie du conseil municpal et forment les voisins vigilants. Ils me proposent des bonbons !",
-    "mort": "Alors que tu rentres chez toi, tu croises un groupe de personnes. Ils font partie du conseil municpal et forment les voisins vigilants. Ils regardent mon costume et s'écrient UN ZOMBIE ! L'un d'eux sort un revolver, et te tires dessus ",
+    "story": "Alors que tu rentres chez toi, tu croises un groupe de personnes. Ils font partie du conseil municipal et forment les voisins vigilants. Ils me proposent des bonbons !",
+    "mort": "Alors que tu rentres chez toi, tu croises un groupe de personnes. Ils font partie du conseil municipal et forment les voisins vigilants. Ils regardent mon costume et s'écrient UN ZOMBIE ! L'un d'eux sort un revolver, et te tires dessus ",
     "img": "https://res.cloudinary.com/dxze602g1/image/upload/v1540950604/neighbor.png",
     "btn1": {
       "id": "10",
