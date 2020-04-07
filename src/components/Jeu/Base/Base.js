@@ -1,13 +1,10 @@
-import React, { Component } from 'react'
+import React from 'react'
 import Start from '../Start/Start'
 import '../Story.scss'
 
-export default class Base extends Component {
-  render() {
-    return (
-      <div className='base'>
-        <Start/>
-      </div>
-    )
-  }
-}
+const Base = () =>
+  <div className='base'>
+    <Start/>
+  </div>
+
+export default Base
